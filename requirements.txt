@@ -1,0 +1,30 @@
+# =========================================================
+# Requirements for 3-Class Pneumonia Classification App
+# Project: Explainable CNN-Based Pneumonia Detection
+# Python Version Recommended: 3.10
+# TensorFlow Version: 2.10.1 for Windows GPU support
+# =========================================================
+
+# Deep Learning Framework
+tensorflow-gpu==2.10.1
+
+# Numerical Computing
+numpy==1.23.5
+
+# Streamlit Web App
+streamlit==1.37.1
+
+# Image Processing
+Pillow==10.4.0
+
+# Visualization
+matplotlib==3.7.5
+
+# Data Handling
+pandas==2.0.3
+
+# Excel export / reading support if needed
+openpyxl==3.1.5
+
+# Utility
+protobuf==3.19.6

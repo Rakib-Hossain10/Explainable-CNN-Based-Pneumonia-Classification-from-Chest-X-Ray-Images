@@ -1,0 +1,1 @@
+{"PROJECT": "Pneumonia Classification", "TASK_TYPE": "Multiclass Classification", "IMAGE_SIZE": 224, "CHANNELS": 3, "NUM_CLASSES": 3, "class_names": ["Normal", "Pneumonia-Bacterial", "Pneumonia-Viral"]}
