@@ -6,25 +6,42 @@
 # =========================================================
 
 # Deep Learning Framework
-tensorflow-gpu==2.10.1
+#tensorflow-gpu==2.10.1
 
 # Numerical Computing
-numpy==1.23.5
+#numpy==1.23.5
 
 # Streamlit Web App
-streamlit==1.37.1
+#streamlit==1.37.1
 
 # Image Processing
-Pillow==10.4.0
+#Pillow==10.4.0
 
 # Visualization
-matplotlib==3.7.5
+#matplotlib==3.7.5
 
 # Data Handling
-pandas==2.0.3
+#pandas==2.0.3
 
 # Excel export / reading support if needed
-openpyxl==3.1.5
+#openpyxl==3.1.5
 
 # Utility
-protobuf==3.19.6
+#protobuf==3.19.6
+
+
+
+
+# Requirements for Streamlit Cloud deployment
+
+tensorflow==2.15.1
+numpy==1.26.4
+
+streamlit==1.37.1
+
+Pillow==10.4.0
+matplotlib==3.8.4
+pandas==2.2.2
+openpyxl==3.1.5
+
+protobuf>=3.20.3,<5
