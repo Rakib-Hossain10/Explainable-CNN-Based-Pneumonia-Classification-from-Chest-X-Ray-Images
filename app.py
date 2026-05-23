@@ -1367,11 +1367,11 @@ def main() -> None:
                     image_input=st.session_state["uploaded_image"],
                     metadata=metadata,
                     target_class_name=selected_target_class,
-                    alpha=0.70,#60
+                    alpha=0.70,#70
                     cmap_name="jet",
-                    blur_radius=0,
-                    min_percentile=80,#98
-                    activation_cutoff=0.20,#45
+                    blur_radius=0, #0
+                    min_percentile=80,#80
+                    activation_cutoff=0.20,#20
                 )
 
             st.session_state["gradcam_result"] = gradcam_result
