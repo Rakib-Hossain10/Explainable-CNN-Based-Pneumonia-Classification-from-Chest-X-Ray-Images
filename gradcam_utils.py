@@ -587,9 +587,16 @@ def overlay_gradcam_on_xray(
     alpha_mask_array = np.uint8(mask_array * float(alpha) * 255)
     alpha_mask_img = Image.fromarray(alpha_mask_array, mode="L")
 
+    # Blue/purple base tint over the whole X-ray image
+
+    
+# This gives the full-image blue background like your marked screenshot.
+    blue_tint = Image.new("RGB", display_img.size, color=(35, 45, 140))
+    blue_base = Image.blend(display_img, blue_tint, 0.40)
+
     overlay_img = Image.composite(
         heatmap_color_img,
-        display_img,
+        blue_base,
         alpha_mask_img,
     )
 
